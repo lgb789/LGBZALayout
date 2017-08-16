@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'LGBZALayout_Example' do
+  pod 'LGBZALayout', :path => '../'
+
+  target 'LGBZALayout_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
