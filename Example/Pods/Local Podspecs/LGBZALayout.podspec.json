@@ -1,0 +1,22 @@
+{
+  "name": "LGBZALayout",
+  "version": "0.1.0",
+  "summary": "A short description of LGBZALayout.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/lgb789/LGBZALayout",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "lgb789@126.com": "lgb789@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/lgb789/LGBZALayout.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "LGBZALayout/Classes/**/*"
+}

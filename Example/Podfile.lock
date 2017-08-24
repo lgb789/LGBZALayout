@@ -1,0 +1,16 @@
+PODS:
+  - LGBZALayout (0.1.0)
+
+DEPENDENCIES:
+  - LGBZALayout (from `../`)
+
+EXTERNAL SOURCES:
+  LGBZALayout:
+    :path: ../
+
+SPEC CHECKSUMS:
+  LGBZALayout: 9dd8c0d8f639a099aa818574026a43e56d0aa8f8
+
+PODFILE CHECKSUM: 517aa02e242d7ada9b69dab0e2df4edfa250e5d4
+
+COCOAPODS: 1.2.1
