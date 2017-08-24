@@ -68,6 +68,7 @@
                       @[@"Example10", @"2个cell图文混排"],
                       @[@"Example11", @"图文混排"],
                       @[@"Example12", @"align bottom"],
+                      @[@"Example13", @"quickly layout"],
                       ];
     ZA_logFrame(self.mainView);
     [self.mainView setupData:data];

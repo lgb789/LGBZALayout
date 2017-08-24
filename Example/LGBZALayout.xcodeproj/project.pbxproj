@@ -52,6 +52,7 @@
 		B80F543F1F4ABD0900132D38 /* Example9.m in Sources */ = {isa = PBXBuildFile; fileRef = B80F543E1F4ABD0900132D38 /* Example9.m */; };
 		B80F54421F4AD61600132D38 /* Example10.m in Sources */ = {isa = PBXBuildFile; fileRef = B80F54411F4AD61600132D38 /* Example10.m */; };
 		B80F54451F4AD7E500132D38 /* ExampleView10.m in Sources */ = {isa = PBXBuildFile; fileRef = B80F54441F4AD7E500132D38 /* ExampleView10.m */; };
+		B89CE5931F4ED50500AE8589 /* Example13.m in Sources */ = {isa = PBXBuildFile; fileRef = B89CE5921F4ED50500AE8589 /* Example13.m */; };
 		B8D4E53C1F4D5F150065EE8D /* ExampleModel10.m in Sources */ = {isa = PBXBuildFile; fileRef = B8D4E53B1F4D5F150065EE8D /* ExampleModel10.m */; };
 		B8D4E53F1F4D74790065EE8D /* Example11.m in Sources */ = {isa = PBXBuildFile; fileRef = B8D4E53E1F4D74790065EE8D /* Example11.m */; };
 		B8D4E5421F4D748C0065EE8D /* ExampleView11.m in Sources */ = {isa = PBXBuildFile; fileRef = B8D4E5411F4D748C0065EE8D /* ExampleView11.m */; };
@@ -146,6 +147,8 @@
 		B80F54411F4AD61600132D38 /* Example10.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Example10.m; sourceTree = "<group>"; };
 		B80F54431F4AD7E500132D38 /* ExampleView10.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleView10.h; sourceTree = "<group>"; };
 		B80F54441F4AD7E500132D38 /* ExampleView10.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleView10.m; sourceTree = "<group>"; };
+		B89CE5911F4ED50500AE8589 /* Example13.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Example13.h; sourceTree = "<group>"; };
+		B89CE5921F4ED50500AE8589 /* Example13.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Example13.m; sourceTree = "<group>"; };
 		B8D4E53A1F4D5F150065EE8D /* ExampleModel10.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleModel10.h; sourceTree = "<group>"; };
 		B8D4E53B1F4D5F150065EE8D /* ExampleModel10.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleModel10.m; sourceTree = "<group>"; };
 		B8D4E53D1F4D74790065EE8D /* Example11.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Example11.h; sourceTree = "<group>"; };
@@ -316,6 +319,8 @@
 				B8D4E53E1F4D74790065EE8D /* Example11.m */,
 				B8D4E5461F4D87530065EE8D /* Example12.h */,
 				B8D4E5471F4D87530065EE8D /* Example12.m */,
+				B89CE5911F4ED50500AE8589 /* Example13.h */,
+				B89CE5921F4ED50500AE8589 /* Example13.m */,
 				B80F53F71F45809B00132D38 /* MainController.h */,
 				B80F53F81F45809B00132D38 /* MainController.m */,
 			);
@@ -584,6 +589,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B89CE5931F4ED50500AE8589 /* Example13.m in Sources */,
 				B80F54171F46E4CF00132D38 /* Example6.m in Sources */,
 				B80F541D1F4A8E6200132D38 /* Example7.m in Sources */,
 				B80F54451F4AD7E500132D38 /* ExampleView10.m in Sources */,
