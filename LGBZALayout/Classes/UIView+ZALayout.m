@@ -883,7 +883,7 @@ typedef ZALayoutManager* (^BViewSpaceRatio)(UIView *refView, CGFloat space, CGFl
 {
     UIView *superView = toView.superview ? toView.superview : toView;
     UIView *topSuperView = fromView.topSuperView;
-//    NSLog(@"top super view:%@", topSuperView);
+    //    NSLog(@"top super view:%@", topSuperView);
     CGPoint p = [superView convertPoint:origin toView:topSuperView];
     p = [topSuperView convertPoint:p toView:fromView.superview];
     
@@ -897,7 +897,7 @@ typedef ZALayoutManager* (^BViewSpaceRatio)(UIView *refView, CGFloat space, CGFl
     if (!manager) {
         return fromView.height;
     }
-
+    
     return [self heightFromManager:manager];
 }
 
@@ -915,11 +915,11 @@ typedef ZALayoutManager* (^BViewSpaceRatio)(UIView *refView, CGFloat space, CGFl
     
     CGFloat toviewheight = [self heightFromView:toView];
     CGFloat fromviewY = [self yFromView:fromView];
-//    NSLog(@"origin from y:%f, %f, %f", origin.y, fromviewY, toviewheight);
-//    NSLog(@"from view:%@", fromView);
-//    NSLog(@"to view:%@", toView);
+    //    NSLog(@"origin from y:%f, %f, %f", origin.y, fromviewY, toviewheight);
+    //    NSLog(@"from view:%@", fromView);
+    //    NSLog(@"to view:%@", toView);
     CGFloat heigh = origin.y + toviewheight - fromviewY + offset;
-//    NSLog(@"heithg:%f", heigh);
+    //    NSLog(@"heithg:%f", heigh);
     return heigh;
 }
 
@@ -930,7 +930,7 @@ typedef ZALayoutManager* (^BViewSpaceRatio)(UIView *refView, CGFloat space, CGFl
     }
     
     CGPoint origin = [self convertOrigin:CGPointMake(0, [self yFromView:toView]) fromView:fromView toView:toView];
-
+    
     return origin.y - space - [self yFromView:fromView];
 }
 
@@ -969,7 +969,7 @@ typedef ZALayoutManager* (^BViewSpaceRatio)(UIView *refView, CGFloat space, CGFl
     if (fromView.superview == toView) {
         return [self widthFromView:toView] - [self xFromView:fromView] - space;
     }
-
+    
     CGPoint origin = [self convertOrigin:CGPointMake([self xFromView:toView], 0) fromView:fromView toView:toView];
     
     return origin.x - [self xFromView:fromView] - space;
@@ -1032,7 +1032,7 @@ typedef ZALayoutManager* (^BViewSpaceRatio)(UIView *refView, CGFloat space, CGFl
     }
     
     CGPoint origin = [self convertOrigin:CGPointMake(0, [self yFromView:toView]) fromView:fromView toView:toView];
-
+    
     return origin.y + [self heightFromView:toView] + space;
 }
 
@@ -1101,12 +1101,12 @@ typedef ZALayoutManager* (^BViewSpaceRatio)(UIView *refView, CGFloat space, CGFl
 //frame
 -(CGFloat)heightFromManager:(ZALayoutManager *)manager
 {
-
+    
     if (manager.height) {
-//        NSLog(@"height to height");
+        //        NSLog(@"height to height");
         if (manager.height.value == 0) {
             CGFloat height = [self calculateHeightOfView:manager.view];
-
+            
             if (height != kNullFloat) {
                 return height;
             }
@@ -1115,34 +1115,34 @@ typedef ZALayoutManager* (^BViewSpaceRatio)(UIView *refView, CGFloat space, CGFl
         return manager.height.value;
         
     }else if (manager.maxHeight){
-//        NSLog(@"height to maxHeight");
+        //        NSLog(@"height to maxHeight");
         CGFloat height = [self calculateHeightOfView:manager.view];
         if (height != kNullFloat) {
             return height > manager.maxHeight.value ? manager.maxHeight.value : height;
         }
-
+        
         return manager.maxHeight.value;
         
-    }else if (manager.bottomSpace) {
-//        NSLog(@"height to bottomSpace");
-        return [self heightFromBottomSpace:manager.bottomSpace.value fromView:manager.view toView:manager.bottomSpace.refView];
-    }else if (manager.alignBottom){
-//        NSLog(@"height to alignBottom");
-        return [self heightFromAlignBottomOffset:manager.alignBottom.value fromView:manager.view toView:manager.alignBottom.refView];
     }else if (manager.heightRatio){
-//        NSLog(@"height to heightRatio");
+        //        NSLog(@"height to heightRatio");
         return [self heightFromView:manager.heightRatio.refView] * manager.heightRatio.value;
     }else if (manager.heightToWidth){
-//        NSLog(@"height to width");
+        //        NSLog(@"height to width");
         return [self widthFromView:manager.view] * manager.heightToWidth.value;
     }else if (manager.alignArrayBottom){
         CGFloat height = 0;
-//        NSLog(@"refview count:%ld", manager.alignArrayBottom.refViews.count);
+        //        NSLog(@"refview count:%ld", manager.alignArrayBottom.refViews.count);
         for (UIView *refView in manager.alignArrayBottom.refViews) {
             height = MAX(height, [self heightFromAlignBottomOffset:manager.alignArrayBottom.value fromView:manager.view toView:refView]);
-//            NSLog(@"max height:%f", height);
+            //            NSLog(@"max height:%f", height);
         }
         return height;
+    }else if (manager.bottomSpace) {
+        //        NSLog(@"height to bottomSpace");
+        return [self heightFromBottomSpace:manager.bottomSpace.value fromView:manager.view toView:manager.bottomSpace.refView];
+    }else if (manager.alignBottom){
+        //        NSLog(@"height to alignBottom");
+        return [self heightFromAlignBottomOffset:manager.alignBottom.value fromView:manager.view toView:manager.alignBottom.refView];
     }
     
     return 0;
@@ -1163,23 +1163,23 @@ typedef ZALayoutManager* (^BViewSpaceRatio)(UIView *refView, CGFloat space, CGFl
     }else if (manager.maxWidth){
         
         CGFloat width = [self calculateWidthOfView:manager.view];
-
+        
         if (width != kNullFloat) {
             return width > manager.maxWidth.value ? manager.maxWidth.value : width;
         }
         
         return manager.maxWidth.value;
         
-    }else if (manager.rightSpace) {
-        return [self widthFromRightSpace:manager.rightSpace.value fromView:manager.view toView:manager.rightSpace.refView];
-    }else if (manager.alignRight){
-        return [self widthFromAlignRightOffset:manager.alignRight.value fromView:manager.view toView:manager.alignRight.refView];
     }else if (manager.widthRatio){
         return [self widthFromView:manager.widthRatio.refView] * manager.widthRatio.value;
     }else if (manager.widthToHeight){
         return [self heightFromView:manager.view] * manager.widthToHeight.value;
     }else if (manager.subviewsWidthEqual){
         return [self widthFromSpace:manager.subviewsWidthEqual.space ratio:manager.subviewsWidthEqual.ratio fromView:manager.view toView:manager.subviewsWidthEqual.refView];
+    }else if (manager.rightSpace) {
+        return [self widthFromRightSpace:manager.rightSpace.value fromView:manager.view toView:manager.rightSpace.refView];
+    }else if (manager.alignRight){
+        return [self widthFromAlignRightOffset:manager.alignRight.value fromView:manager.view toView:manager.alignRight.refView];
     }
     return 0;
 }
