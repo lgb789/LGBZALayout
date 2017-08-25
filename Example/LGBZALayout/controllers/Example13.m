@@ -51,10 +51,10 @@
     [self.view addSubview:v1];
     
     v1.lgb_Layout
-    .spaceToViewLeft_15(self.view)
-    .spaceToViewTop_15(self.view)
-    .spaceToViewRight_15(self.view)
-    .spaceToViewDown_15(self.view);
+    .spaceToViewLeft_15p(self.view)
+    .spaceToViewTop_15p(self.view)
+    .spaceToViewRight_15p(self.view)
+    .spaceToViewDown_15p(self.view);
     
     UIView *v2 = [UIView new];
     v2.backgroundColor = [UIColor redColor];
@@ -73,8 +73,8 @@
     [v1 addSubview:v3];
     
     v3.lgb_Layout
-    .alignToViewLeft_15(v2)
-    .alignToViewTop_15(v2)
+    .alignToViewLeft_15p(v2)
+    .alignToViewTop_15p(v2)
     .isWidth(50)
     .isHeight(100);
     
@@ -84,10 +84,10 @@
     [v1 addSubview:v4];
     
     v4.lgb_Layout
-    .spaceToViewLeft_10(v3)
-    .alignToViewTop_0(v3)
-    .alignToViewRight_8(v2)
-    .alignToViewBottom_15(v2);
+    .spaceToViewLeft_10p(v3)
+    .alignToViewTop_0p(v3)
+    .alignToViewRight_8p(v2)
+    .alignToViewBottom_15p(v2);
     
 }
 #pragma mark ------------------------------------------------- 成员变量 -------------------------------------------------

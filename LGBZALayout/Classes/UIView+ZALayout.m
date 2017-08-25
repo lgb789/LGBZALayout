@@ -383,404 +383,404 @@ typedef ZALayoutManager* (^BViewSpaceRatio)(UIView *refView, CGFloat space, CGFl
     return _subviewWidthEqualToView;
 }
 
--(BView)spaceToViewLeft_0
+-(BView)spaceToViewLeft_0p
 {
-    if (_spaceToViewLeft_0 == nil) {
-        _spaceToViewLeft_0 = [self createBViewWithKey:NSStringFromSelector(@selector(leftSpace)) value:0];
+    if (_spaceToViewLeft_0p == nil) {
+        _spaceToViewLeft_0p = [self createBViewWithKey:NSStringFromSelector(@selector(leftSpace)) value:0];
     }
-    return _spaceToViewLeft_0;
+    return _spaceToViewLeft_0p;
 }
 
--(BView)spaceToViewLeft_5
+-(BView)spaceToViewLeft_5p
 {
-    if (_spaceToViewLeft_5 == nil) {
-        _spaceToViewLeft_5 = [self createBViewWithKey:NSStringFromSelector(@selector(leftSpace)) value:5];
+    if (_spaceToViewLeft_5p == nil) {
+        _spaceToViewLeft_5p = [self createBViewWithKey:NSStringFromSelector(@selector(leftSpace)) value:5];
     }
-    return _spaceToViewLeft_5;
+    return _spaceToViewLeft_5p;
 }
 
--(BView)spaceToViewLeft_8
+-(BView)spaceToViewLeft_8p
 {
-    if (_spaceToViewLeft_8 == nil) {
-        _spaceToViewLeft_8 = [self createBViewWithKey:NSStringFromSelector(@selector(leftSpace)) value:8];
+    if (_spaceToViewLeft_8p == nil) {
+        _spaceToViewLeft_8p = [self createBViewWithKey:NSStringFromSelector(@selector(leftSpace)) value:8];
     }
-    return _spaceToViewLeft_8;
+    return _spaceToViewLeft_8p;
 }
 
--(BView)spaceToViewLeft_10
+-(BView)spaceToViewLeft_10p
 {
-    if (_spaceToViewLeft_10 == nil) {
-        _spaceToViewLeft_10 = [self createBViewWithKey:NSStringFromSelector(@selector(leftSpace)) value:10];
+    if (_spaceToViewLeft_10p == nil) {
+        _spaceToViewLeft_10p = [self createBViewWithKey:NSStringFromSelector(@selector(leftSpace)) value:10];
     }
-    return _spaceToViewLeft_10;
+    return _spaceToViewLeft_10p;
 }
 
--(BView)spaceToViewLeft_15
+-(BView)spaceToViewLeft_15p
 {
-    if (_spaceToViewLeft_15 == nil) {
-        _spaceToViewLeft_15 = [self createBViewWithKey:NSStringFromSelector(@selector(leftSpace)) value:15];
+    if (_spaceToViewLeft_15p == nil) {
+        _spaceToViewLeft_15p = [self createBViewWithKey:NSStringFromSelector(@selector(leftSpace)) value:15];
     }
-    return _spaceToViewLeft_15;
+    return _spaceToViewLeft_15p;
 }
 
--(BView)spaceToViewRight_0
+-(BView)spaceToViewRight_0p
 {
-    if (_spaceToViewRight_0 == nil) {
-        _spaceToViewRight_0 = [self createBViewWithKey:NSStringFromSelector(@selector(rightSpace)) value:0];
+    if (_spaceToViewRight_0p == nil) {
+        _spaceToViewRight_0p = [self createBViewWithKey:NSStringFromSelector(@selector(rightSpace)) value:0];
     }
-    return _spaceToViewRight_0;
+    return _spaceToViewRight_0p;
 }
 
--(BView)spaceToViewRight_5
+-(BView)spaceToViewRight_5p
 {
-    if (_spaceToViewRight_5 == nil) {
-        _spaceToViewRight_5 = [self createBViewWithKey:NSStringFromSelector(@selector(rightSpace)) value:5];
+    if (_spaceToViewRight_5p == nil) {
+        _spaceToViewRight_5p = [self createBViewWithKey:NSStringFromSelector(@selector(rightSpace)) value:5];
     }
-    return _spaceToViewRight_5;
+    return _spaceToViewRight_5p;
 }
 
--(BView)spaceToViewRight_8
+-(BView)spaceToViewRight_8p
 {
-    if (_spaceToViewRight_8 == nil) {
-        _spaceToViewRight_8 = [self createBViewWithKey:NSStringFromSelector(@selector(rightSpace)) value:8];
+    if (_spaceToViewRight_8p == nil) {
+        _spaceToViewRight_8p = [self createBViewWithKey:NSStringFromSelector(@selector(rightSpace)) value:8];
     }
-    return _spaceToViewRight_8;
+    return _spaceToViewRight_8p;
 }
 
--(BView)spaceToViewRight_10
+-(BView)spaceToViewRight_10p
 {
-    if (_spaceToViewRight_10 == nil) {
-        _spaceToViewRight_10 = [self createBViewWithKey:NSStringFromSelector(@selector(rightSpace)) value:10];
+    if (_spaceToViewRight_10p == nil) {
+        _spaceToViewRight_10p = [self createBViewWithKey:NSStringFromSelector(@selector(rightSpace)) value:10];
     }
-    return _spaceToViewRight_10;
+    return _spaceToViewRight_10p;
 }
 
--(BView)spaceToViewRight_15
+-(BView)spaceToViewRight_15p
 {
-    if (_spaceToViewRight_15 == nil) {
-        _spaceToViewRight_15 = [self createBViewWithKey:NSStringFromSelector(@selector(rightSpace)) value:15];
+    if (_spaceToViewRight_15p == nil) {
+        _spaceToViewRight_15p = [self createBViewWithKey:NSStringFromSelector(@selector(rightSpace)) value:15];
     }
-    return _spaceToViewRight_15;
+    return _spaceToViewRight_15p;
 }
 
--(BView)spaceToViewTop_0
+-(BView)spaceToViewTop_0p
 {
-    if (_spaceToViewTop_0 == nil) {
-        _spaceToViewTop_0 = [self createBViewWithKey:NSStringFromSelector(@selector(topSpace)) value:0];
+    if (_spaceToViewTop_0p == nil) {
+        _spaceToViewTop_0p = [self createBViewWithKey:NSStringFromSelector(@selector(topSpace)) value:0];
     }
-    return _spaceToViewTop_0;
+    return _spaceToViewTop_0p;
 }
 
--(BView)spaceToViewTop_5
+-(BView)spaceToViewTop_5p
 {
-    if (_spaceToViewTop_5 == nil) {
-        _spaceToViewTop_5 = [self createBViewWithKey:NSStringFromSelector(@selector(topSpace)) value:5];
+    if (_spaceToViewTop_5p == nil) {
+        _spaceToViewTop_5p = [self createBViewWithKey:NSStringFromSelector(@selector(topSpace)) value:5];
     }
-    return _spaceToViewTop_5;
+    return _spaceToViewTop_5p;
 }
 
--(BView)spaceToViewTop_8
+-(BView)spaceToViewTop_8p
 {
-    if (_spaceToViewTop_8 == nil) {
-        _spaceToViewTop_8 = [self createBViewWithKey:NSStringFromSelector(@selector(topSpace)) value:8];
+    if (_spaceToViewTop_8p == nil) {
+        _spaceToViewTop_8p = [self createBViewWithKey:NSStringFromSelector(@selector(topSpace)) value:8];
     }
-    return _spaceToViewTop_8;
+    return _spaceToViewTop_8p;
 }
 
--(BView)spaceToViewTop_10
+-(BView)spaceToViewTop_10p
 {
-    if (_spaceToViewTop_10 == nil) {
-        _spaceToViewTop_10 = [self createBViewWithKey:NSStringFromSelector(@selector(topSpace)) value:10];
+    if (_spaceToViewTop_10p == nil) {
+        _spaceToViewTop_10p = [self createBViewWithKey:NSStringFromSelector(@selector(topSpace)) value:10];
     }
-    return _spaceToViewTop_10;
+    return _spaceToViewTop_10p;
 }
 
--(BView)spaceToViewTop_15
+-(BView)spaceToViewTop_15p
 {
-    if (_spaceToViewTop_15 == nil) {
-        _spaceToViewTop_15 = [self createBViewWithKey:NSStringFromSelector(@selector(topSpace)) value:15];
+    if (_spaceToViewTop_15p == nil) {
+        _spaceToViewTop_15p = [self createBViewWithKey:NSStringFromSelector(@selector(topSpace)) value:15];
     }
-    return _spaceToViewTop_15;
+    return _spaceToViewTop_15p;
 }
 
--(BView)spaceToViewBottom_0
+-(BView)spaceToViewBottom_0p
 {
-    if (_spaceToViewBottom_0 == nil) {
-        _spaceToViewBottom_0 = [self createBViewWithKey:NSStringFromSelector(@selector(bottomSpace)) value:0];
+    if (_spaceToViewBottom_0p == nil) {
+        _spaceToViewBottom_0p = [self createBViewWithKey:NSStringFromSelector(@selector(bottomSpace)) value:0];
     }
-    return _spaceToViewBottom_0;
+    return _spaceToViewBottom_0p;
 }
 
--(BView)spaceToViewBottom_5
+-(BView)spaceToViewBottom_5p
 {
-    if (_spaceToViewBottom_5 == nil) {
-        _spaceToViewBottom_5 = [self createBViewWithKey:NSStringFromSelector(@selector(bottomSpace)) value:5];
+    if (_spaceToViewBottom_5p == nil) {
+        _spaceToViewBottom_5p = [self createBViewWithKey:NSStringFromSelector(@selector(bottomSpace)) value:5];
     }
-    return _spaceToViewBottom_5;
+    return _spaceToViewBottom_5p;
 }
 
--(BView)spaceToViewBottom_8
+-(BView)spaceToViewBottom_8p
 {
-    if (_spaceToViewBottom_8 == nil) {
-        _spaceToViewBottom_8 = [self createBViewWithKey:NSStringFromSelector(@selector(bottomSpace)) value:8];
+    if (_spaceToViewBottom_8p == nil) {
+        _spaceToViewBottom_8p = [self createBViewWithKey:NSStringFromSelector(@selector(bottomSpace)) value:8];
     }
-    return _spaceToViewBottom_8;
+    return _spaceToViewBottom_8p;
 }
 
--(BView)spaceToViewBottom_10
+-(BView)spaceToViewBottom_10p
 {
-    if (_spaceToViewBottom_10 == nil) {
-        _spaceToViewBottom_10 = [self createBViewWithKey:NSStringFromSelector(@selector(bottomSpace)) value:10];
+    if (_spaceToViewBottom_10p == nil) {
+        _spaceToViewBottom_10p = [self createBViewWithKey:NSStringFromSelector(@selector(bottomSpace)) value:10];
     }
-    return _spaceToViewBottom_10;
+    return _spaceToViewBottom_10p;
 }
 
--(BView)spaceToViewBottom_15
+-(BView)spaceToViewBottom_15p
 {
-    if (_spaceToViewBottom_15 == nil) {
-        _spaceToViewBottom_15 = [self createBViewWithKey:NSStringFromSelector(@selector(bottomSpace)) value:15];
+    if (_spaceToViewBottom_15p == nil) {
+        _spaceToViewBottom_15p = [self createBViewWithKey:NSStringFromSelector(@selector(bottomSpace)) value:15];
     }
-    return _spaceToViewBottom_15;
+    return _spaceToViewBottom_15p;
 }
 
--(BView)spaceToViewDown_0
+-(BView)spaceToViewDown_0p
 {
-    if (_spaceToViewDown_0 == nil) {
-        _spaceToViewDown_0 = [self createBViewWithKey:NSStringFromSelector(@selector(bottomSpace)) value:0];
+    if (_spaceToViewDown_0p == nil) {
+        _spaceToViewDown_0p = [self createBViewWithKey:NSStringFromSelector(@selector(bottomSpace)) value:0];
     }
-    return _spaceToViewDown_0;
+    return _spaceToViewDown_0p;
 }
 
--(BView)spaceToViewDown_5
+-(BView)spaceToViewDown_5p
 {
-    if (_spaceToViewDown_5 == nil) {
-        _spaceToViewDown_5 = [self createBViewWithKey:NSStringFromSelector(@selector(bottomSpace)) value:5];
+    if (_spaceToViewDown_5p == nil) {
+        _spaceToViewDown_5p = [self createBViewWithKey:NSStringFromSelector(@selector(bottomSpace)) value:5];
     }
-    return _spaceToViewDown_5;
+    return _spaceToViewDown_5p;
 }
 
--(BView)spaceToViewDown_8
+-(BView)spaceToViewDown_8p
 {
-    if (_spaceToViewDown_8 == nil) {
-        _spaceToViewDown_8 = [self createBViewWithKey:NSStringFromSelector(@selector(bottomSpace)) value:8];
+    if (_spaceToViewDown_8p == nil) {
+        _spaceToViewDown_8p = [self createBViewWithKey:NSStringFromSelector(@selector(bottomSpace)) value:8];
     }
-    return _spaceToViewDown_8;
+    return _spaceToViewDown_8p;
 }
 
--(BView)spaceToViewDown_10
+-(BView)spaceToViewDown_10p
 {
-    if (_spaceToViewDown_10 == nil) {
-        _spaceToViewDown_10 = [self createBViewWithKey:NSStringFromSelector(@selector(bottomSpace)) value:10];
+    if (_spaceToViewDown_10p == nil) {
+        _spaceToViewDown_10p = [self createBViewWithKey:NSStringFromSelector(@selector(bottomSpace)) value:10];
     }
-    return _spaceToViewDown_10;
+    return _spaceToViewDown_10p;
 }
 
--(BView)spaceToViewDown_15
+-(BView)spaceToViewDown_15p
 {
-    if (_spaceToViewDown_15 == nil) {
-        _spaceToViewDown_15 = [self createBViewWithKey:NSStringFromSelector(@selector(bottomSpace)) value:15];
+    if (_spaceToViewDown_15p == nil) {
+        _spaceToViewDown_15p = [self createBViewWithKey:NSStringFromSelector(@selector(bottomSpace)) value:15];
     }
-    return _spaceToViewDown_15;
+    return _spaceToViewDown_15p;
 }
 
--(BView)alignToViewLeft_0
+-(BView)alignToViewLeft_0p
 {
-    if (_alignToViewLeft_0 == nil) {
-        _alignToViewLeft_0 = [self createBViewWithKey:NSStringFromSelector(@selector(alignLeft)) value:0];
+    if (_alignToViewLeft_0p == nil) {
+        _alignToViewLeft_0p = [self createBViewWithKey:NSStringFromSelector(@selector(alignLeft)) value:0];
     }
-    return _alignToViewLeft_0;
+    return _alignToViewLeft_0p;
 }
 
--(BView)alignToViewLeft_5
+-(BView)alignToViewLeft_5p
 {
-    if (_alignToViewLeft_5 == nil) {
-        _alignToViewLeft_5 = [self createBViewWithKey:NSStringFromSelector(@selector(alignLeft)) value:5];
+    if (_alignToViewLeft_5p == nil) {
+        _alignToViewLeft_5p = [self createBViewWithKey:NSStringFromSelector(@selector(alignLeft)) value:5];
     }
-    return _alignToViewLeft_5;
+    return _alignToViewLeft_5p;
 }
 
--(BView)alignToViewLeft_8
+-(BView)alignToViewLeft_8p
 {
-    if (_alignToViewLeft_8 == nil) {
-        _alignToViewLeft_8 = [self createBViewWithKey:NSStringFromSelector(@selector(alignLeft)) value:8];
+    if (_alignToViewLeft_8p == nil) {
+        _alignToViewLeft_8p = [self createBViewWithKey:NSStringFromSelector(@selector(alignLeft)) value:8];
     }
-    return _alignToViewLeft_8;
+    return _alignToViewLeft_8p;
 }
 
--(BView)alignToViewLeft_10
+-(BView)alignToViewLeft_10p
 {
-    if (_alignToViewLeft_10 == nil) {
-        _alignToViewLeft_10 = [self createBViewWithKey:NSStringFromSelector(@selector(alignLeft)) value:10];
+    if (_alignToViewLeft_10p == nil) {
+        _alignToViewLeft_10p = [self createBViewWithKey:NSStringFromSelector(@selector(alignLeft)) value:10];
     }
-    return _alignToViewLeft_10;
+    return _alignToViewLeft_10p;
 }
 
--(BView)alignToViewLeft_15
+-(BView)alignToViewLeft_15p
 {
-    if (_alignToViewLeft_15 == nil) {
-        _alignToViewLeft_15 = [self createBViewWithKey:NSStringFromSelector(@selector(alignLeft)) value:15];
+    if (_alignToViewLeft_15p == nil) {
+        _alignToViewLeft_15p = [self createBViewWithKey:NSStringFromSelector(@selector(alignLeft)) value:15];
     }
-    return _alignToViewLeft_15;
+    return _alignToViewLeft_15p;
 }
 
--(BView)alignToViewRight_0
+-(BView)alignToViewRight_0p
 {
-    if (_alignToViewRight_0 == nil) {
-        _alignToViewRight_0 = [self createBViewWithKey:NSStringFromSelector(@selector(alignRight)) value:0];
+    if (_alignToViewRight_0p == nil) {
+        _alignToViewRight_0p = [self createBViewWithKey:NSStringFromSelector(@selector(alignRight)) value:0];
     }
-    return _alignToViewRight_0;
+    return _alignToViewRight_0p;
 }
 
--(BView)alignToViewRight_5
+-(BView)alignToViewRight_5p
 {
-    if (_alignToViewRight_5 == nil) {
-        _alignToViewRight_5 = [self createBViewWithKey:NSStringFromSelector(@selector(alignRight)) value:5];
+    if (_alignToViewRight_5p == nil) {
+        _alignToViewRight_5p = [self createBViewWithKey:NSStringFromSelector(@selector(alignRight)) value:5];
     }
-    return _alignToViewRight_5;
+    return _alignToViewRight_5p;
 }
 
--(BView)alignToViewRight_8
+-(BView)alignToViewRight_8p
 {
-    if (_alignToViewRight_8 == nil) {
-        _alignToViewRight_8 = [self createBViewWithKey:NSStringFromSelector(@selector(alignRight)) value:8];
+    if (_alignToViewRight_8p == nil) {
+        _alignToViewRight_8p = [self createBViewWithKey:NSStringFromSelector(@selector(alignRight)) value:8];
     }
-    return _alignToViewRight_8;
+    return _alignToViewRight_8p;
 }
 
--(BView)alignToViewRight_10
+-(BView)alignToViewRight_10p
 {
-    if (_alignToViewRight_10 == nil) {
-        _alignToViewRight_10 = [self createBViewWithKey:NSStringFromSelector(@selector(alignRight)) value:10];
+    if (_alignToViewRight_10p == nil) {
+        _alignToViewRight_10p = [self createBViewWithKey:NSStringFromSelector(@selector(alignRight)) value:10];
     }
-    return _alignToViewRight_10;
+    return _alignToViewRight_10p;
 }
 
--(BView)alignToViewRight_15
+-(BView)alignToViewRight_15p
 {
-    if (_alignToViewRight_15 == nil) {
-        _alignToViewRight_15 = [self createBViewWithKey:NSStringFromSelector(@selector(alignRight)) value:15];
+    if (_alignToViewRight_15p == nil) {
+        _alignToViewRight_15p = [self createBViewWithKey:NSStringFromSelector(@selector(alignRight)) value:15];
     }
-    return _alignToViewRight_15;
+    return _alignToViewRight_15p;
 }
 
--(BView)alignToViewTop_0
+-(BView)alignToViewTop_0p
 {
-    if (_alignToViewTop_0 == nil) {
-        _alignToViewTop_0 = [self createBViewWithKey:NSStringFromSelector(@selector(alignTop)) value:0];
+    if (_alignToViewTop_0p == nil) {
+        _alignToViewTop_0p = [self createBViewWithKey:NSStringFromSelector(@selector(alignTop)) value:0];
     }
-    return _alignToViewTop_0;
+    return _alignToViewTop_0p;
 }
 
--(BView)alignToViewTop_5
+-(BView)alignToViewTop_5p
 {
-    if (_alignToViewTop_5 == nil) {
-        _alignToViewTop_5 = [self createBViewWithKey:NSStringFromSelector(@selector(alignTop)) value:5];
+    if (_alignToViewTop_5p == nil) {
+        _alignToViewTop_5p = [self createBViewWithKey:NSStringFromSelector(@selector(alignTop)) value:5];
     }
-    return _alignToViewTop_5;
+    return _alignToViewTop_5p;
 }
 
--(BView)alignToViewTop_8
+-(BView)alignToViewTop_8p
 {
-    if (_alignToViewTop_8 == nil) {
-        _alignToViewTop_8 = [self createBViewWithKey:NSStringFromSelector(@selector(alignTop)) value:8];
+    if (_alignToViewTop_8p == nil) {
+        _alignToViewTop_8p = [self createBViewWithKey:NSStringFromSelector(@selector(alignTop)) value:8];
     }
-    return _alignToViewTop_8;
+    return _alignToViewTop_8p;
 }
 
--(BView)alignToViewTop_10
+-(BView)alignToViewTop_10p
 {
-    if (_alignToViewTop_10 == nil) {
-        _alignToViewTop_10 = [self createBViewWithKey:NSStringFromSelector(@selector(alignTop)) value:10];
+    if (_alignToViewTop_10p == nil) {
+        _alignToViewTop_10p = [self createBViewWithKey:NSStringFromSelector(@selector(alignTop)) value:10];
     }
-    return _alignToViewTop_10;
+    return _alignToViewTop_10p;
 }
 
--(BView)alignToViewTop_15
+-(BView)alignToViewTop_15p
 {
-    if (_alignToViewTop_15 == nil) {
-        _alignToViewTop_15 = [self createBViewWithKey:NSStringFromSelector(@selector(alignTop)) value:15];
+    if (_alignToViewTop_15p == nil) {
+        _alignToViewTop_15p = [self createBViewWithKey:NSStringFromSelector(@selector(alignTop)) value:15];
     }
-    return _alignToViewTop_15;
+    return _alignToViewTop_15p;
 }
 
--(BView)alignToViewBottom_0
+-(BView)alignToViewBottom_0p
 {
-    if (_alignToViewBottom_0 == nil) {
-        _alignToViewBottom_0 = [self createBViewWithKey:NSStringFromSelector(@selector(alignBottom)) value:0];
+    if (_alignToViewBottom_0p == nil) {
+        _alignToViewBottom_0p = [self createBViewWithKey:NSStringFromSelector(@selector(alignBottom)) value:0];
     }
-    return _alignToViewBottom_0;
+    return _alignToViewBottom_0p;
 }
 
--(BView)alignToViewBottom_5
+-(BView)alignToViewBottom_5p
 {
-    if (_alignToViewBottom_5 == nil) {
-        _alignToViewBottom_5 = [self createBViewWithKey:NSStringFromSelector(@selector(alignBottom)) value:5];
+    if (_alignToViewBottom_5p == nil) {
+        _alignToViewBottom_5p = [self createBViewWithKey:NSStringFromSelector(@selector(alignBottom)) value:5];
     }
-    return _alignToViewBottom_5;
+    return _alignToViewBottom_5p;
 }
 
--(BView)alignToViewBottom_8
+-(BView)alignToViewBottom_8p
 {
-    if (_alignToViewBottom_8 == nil) {
-        _alignToViewBottom_8 = [self createBViewWithKey:NSStringFromSelector(@selector(alignBottom)) value:8];
+    if (_alignToViewBottom_8p == nil) {
+        _alignToViewBottom_8p = [self createBViewWithKey:NSStringFromSelector(@selector(alignBottom)) value:8];
     }
-    return _alignToViewBottom_8;
+    return _alignToViewBottom_8p;
 }
 
--(BView)alignToViewBottom_10
+-(BView)alignToViewBottom_10p
 {
-    if (_alignToViewBottom_10 == nil) {
-        _alignToViewBottom_10 = [self createBViewWithKey:NSStringFromSelector(@selector(alignBottom)) value:10];
+    if (_alignToViewBottom_10p == nil) {
+        _alignToViewBottom_10p = [self createBViewWithKey:NSStringFromSelector(@selector(alignBottom)) value:10];
     }
-    return _alignToViewBottom_10;
+    return _alignToViewBottom_10p;
 }
 
--(BView)alignToViewBottom_15
+-(BView)alignToViewBottom_15p
 {
-    if (_alignToViewBottom_15 == nil) {
-        _alignToViewBottom_15 = [self createBViewWithKey:NSStringFromSelector(@selector(alignBottom)) value:15];
+    if (_alignToViewBottom_15p == nil) {
+        _alignToViewBottom_15p = [self createBViewWithKey:NSStringFromSelector(@selector(alignBottom)) value:15];
     }
-    return _alignToViewBottom_15;
+    return _alignToViewBottom_15p;
 }
 
--(BView)alignToViewDown_0
+-(BView)alignToViewDown_0p
 {
-    if (_alignToViewDown_0 == nil) {
-        _alignToViewDown_0 = [self createBViewWithKey:NSStringFromSelector(@selector(alignBottom)) value:0];
+    if (_alignToViewDown_0p == nil) {
+        _alignToViewDown_0p = [self createBViewWithKey:NSStringFromSelector(@selector(alignBottom)) value:0];
     }
-    return _alignToViewDown_0;
+    return _alignToViewDown_0p;
 }
 
--(BView)alignToViewDown_5
+-(BView)alignToViewDown_5p
 {
-    if (_alignToViewDown_5 == nil) {
-        _alignToViewDown_5 = [self createBViewWithKey:NSStringFromSelector(@selector(alignBottom)) value:5];
+    if (_alignToViewDown_5p == nil) {
+        _alignToViewDown_5p = [self createBViewWithKey:NSStringFromSelector(@selector(alignBottom)) value:5];
     }
-    return _alignToViewDown_5;
+    return _alignToViewDown_5p;
 }
 
--(BView)alignToViewDown_8
+-(BView)alignToViewDown_8p
 {
-    if (_alignToViewDown_8 == nil) {
-        _alignToViewDown_8 = [self createBViewWithKey:NSStringFromSelector(@selector(alignBottom)) value:8];
+    if (_alignToViewDown_8p == nil) {
+        _alignToViewDown_8p = [self createBViewWithKey:NSStringFromSelector(@selector(alignBottom)) value:8];
     }
-    return _alignToViewDown_8;
+    return _alignToViewDown_8p;
 }
 
--(BView)alignToViewDown_10
+-(BView)alignToViewDown_10p
 {
-    if (_alignToViewDown_10 == nil) {
-        _alignToViewDown_10 = [self createBViewWithKey:NSStringFromSelector(@selector(alignBottom)) value:10];
+    if (_alignToViewDown_10p == nil) {
+        _alignToViewDown_10p = [self createBViewWithKey:NSStringFromSelector(@selector(alignBottom)) value:10];
     }
-    return _alignToViewDown_10;
+    return _alignToViewDown_10p;
 }
 
--(BView)alignToViewDown_15
+-(BView)alignToViewDown_15p
 {
-    if (_alignToViewDown_15 == nil) {
-        _alignToViewDown_15 = [self createBViewWithKey:NSStringFromSelector(@selector(alignBottom)) value:15];
+    if (_alignToViewDown_15p == nil) {
+        _alignToViewDown_15p = [self createBViewWithKey:NSStringFromSelector(@selector(alignBottom)) value:15];
     }
-    return _alignToViewDown_15;
+    return _alignToViewDown_15p;
 }
 
 @end

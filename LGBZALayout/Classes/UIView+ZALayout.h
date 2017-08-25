@@ -70,65 +70,65 @@ typedef ZALayoutManager* (^BViewArrayValue)(NSArray *viewArray, CGFloat value);
 @property (nonatomic, copy) BViewArrayValue alignToViewArrayBottom;
 
 //constant
-@property (nonatomic, copy) BView spaceToViewLeft_0;
-@property (nonatomic, copy) BView spaceToViewLeft_5;
-@property (nonatomic, copy) BView spaceToViewLeft_8;
-@property (nonatomic, copy) BView spaceToViewLeft_10;
-@property (nonatomic, copy) BView spaceToViewLeft_15;
+@property (nonatomic, copy) BView spaceToViewLeft_0p;
+@property (nonatomic, copy) BView spaceToViewLeft_5p;
+@property (nonatomic, copy) BView spaceToViewLeft_8p;
+@property (nonatomic, copy) BView spaceToViewLeft_10p;
+@property (nonatomic, copy) BView spaceToViewLeft_15p;
 
-@property (nonatomic, copy) BView spaceToViewTop_0;
-@property (nonatomic, copy) BView spaceToViewTop_5;
-@property (nonatomic, copy) BView spaceToViewTop_8;
-@property (nonatomic, copy) BView spaceToViewTop_10;
-@property (nonatomic, copy) BView spaceToViewTop_15;
+@property (nonatomic, copy) BView spaceToViewTop_0p;
+@property (nonatomic, copy) BView spaceToViewTop_5p;
+@property (nonatomic, copy) BView spaceToViewTop_8p;
+@property (nonatomic, copy) BView spaceToViewTop_10p;
+@property (nonatomic, copy) BView spaceToViewTop_15p;
 
-@property (nonatomic, copy) BView spaceToViewRight_0;
-@property (nonatomic, copy) BView spaceToViewRight_5;
-@property (nonatomic, copy) BView spaceToViewRight_8;
-@property (nonatomic, copy) BView spaceToViewRight_10;
-@property (nonatomic, copy) BView spaceToViewRight_15;
+@property (nonatomic, copy) BView spaceToViewRight_0p;
+@property (nonatomic, copy) BView spaceToViewRight_5p;
+@property (nonatomic, copy) BView spaceToViewRight_8p;
+@property (nonatomic, copy) BView spaceToViewRight_10p;
+@property (nonatomic, copy) BView spaceToViewRight_15p;
 
-@property (nonatomic, copy) BView spaceToViewBottom_0;
-@property (nonatomic, copy) BView spaceToViewBottom_5;
-@property (nonatomic, copy) BView spaceToViewBottom_8;
-@property (nonatomic, copy) BView spaceToViewBottom_10;
-@property (nonatomic, copy) BView spaceToViewBottom_15;
+@property (nonatomic, copy) BView spaceToViewBottom_0p;
+@property (nonatomic, copy) BView spaceToViewBottom_5p;
+@property (nonatomic, copy) BView spaceToViewBottom_8p;
+@property (nonatomic, copy) BView spaceToViewBottom_10p;
+@property (nonatomic, copy) BView spaceToViewBottom_15p;
 
-@property (nonatomic, copy) BView spaceToViewDown_0;
-@property (nonatomic, copy) BView spaceToViewDown_5;
-@property (nonatomic, copy) BView spaceToViewDown_8;
-@property (nonatomic, copy) BView spaceToViewDown_10;
-@property (nonatomic, copy) BView spaceToViewDown_15;
+@property (nonatomic, copy) BView spaceToViewDown_0p;
+@property (nonatomic, copy) BView spaceToViewDown_5p;
+@property (nonatomic, copy) BView spaceToViewDown_8p;
+@property (nonatomic, copy) BView spaceToViewDown_10p;
+@property (nonatomic, copy) BView spaceToViewDown_15p;
 
-@property (nonatomic, copy) BView alignToViewLeft_0;
-@property (nonatomic, copy) BView alignToViewLeft_5;
-@property (nonatomic, copy) BView alignToViewLeft_8;
-@property (nonatomic, copy) BView alignToViewLeft_10;
-@property (nonatomic, copy) BView alignToViewLeft_15;
+@property (nonatomic, copy) BView alignToViewLeft_0p;
+@property (nonatomic, copy) BView alignToViewLeft_5p;
+@property (nonatomic, copy) BView alignToViewLeft_8p;
+@property (nonatomic, copy) BView alignToViewLeft_10p;
+@property (nonatomic, copy) BView alignToViewLeft_15p;
 
-@property (nonatomic, copy) BView alignToViewTop_0;
-@property (nonatomic, copy) BView alignToViewTop_5;
-@property (nonatomic, copy) BView alignToViewTop_8;
-@property (nonatomic, copy) BView alignToViewTop_10;
-@property (nonatomic, copy) BView alignToViewTop_15;
+@property (nonatomic, copy) BView alignToViewTop_0p;
+@property (nonatomic, copy) BView alignToViewTop_5p;
+@property (nonatomic, copy) BView alignToViewTop_8p;
+@property (nonatomic, copy) BView alignToViewTop_10p;
+@property (nonatomic, copy) BView alignToViewTop_15p;
 
-@property (nonatomic, copy) BView alignToViewRight_0;
-@property (nonatomic, copy) BView alignToViewRight_5;
-@property (nonatomic, copy) BView alignToViewRight_8;
-@property (nonatomic, copy) BView alignToViewRight_10;
-@property (nonatomic, copy) BView alignToViewRight_15;
+@property (nonatomic, copy) BView alignToViewRight_0p;
+@property (nonatomic, copy) BView alignToViewRight_5p;
+@property (nonatomic, copy) BView alignToViewRight_8p;
+@property (nonatomic, copy) BView alignToViewRight_10p;
+@property (nonatomic, copy) BView alignToViewRight_15p;
 
-@property (nonatomic, copy) BView alignToViewBottom_0;
-@property (nonatomic, copy) BView alignToViewBottom_5;
-@property (nonatomic, copy) BView alignToViewBottom_8;
-@property (nonatomic, copy) BView alignToViewBottom_10;
-@property (nonatomic, copy) BView alignToViewBottom_15;
+@property (nonatomic, copy) BView alignToViewBottom_0p;
+@property (nonatomic, copy) BView alignToViewBottom_5p;
+@property (nonatomic, copy) BView alignToViewBottom_8p;
+@property (nonatomic, copy) BView alignToViewBottom_10p;
+@property (nonatomic, copy) BView alignToViewBottom_15p;
 
-@property (nonatomic, copy) BView alignToViewDown_0;
-@property (nonatomic, copy) BView alignToViewDown_5;
-@property (nonatomic, copy) BView alignToViewDown_8;
-@property (nonatomic, copy) BView alignToViewDown_10;
-@property (nonatomic, copy) BView alignToViewDown_15;
+@property (nonatomic, copy) BView alignToViewDown_0p;
+@property (nonatomic, copy) BView alignToViewDown_5p;
+@property (nonatomic, copy) BView alignToViewDown_8p;
+@property (nonatomic, copy) BView alignToViewDown_10p;
+@property (nonatomic, copy) BView alignToViewDown_15p;
 
 -(void)updateLayout;
 
