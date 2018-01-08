@@ -57,12 +57,12 @@
         cell = [self dequeueReusableCellWithIdentifier:identifier];
     }
     
-    [cell zaConfigCellWithData:data];
+    [cell lgb_configCellWithData:data];
     
 //    CH_log(@"cell width:%f", cell.width);
     
     cell.width = [self lgb_getWidth];
-    CGFloat height = [self heightFromView:cell.contentView];
+    CGFloat height = [self lgb_heightFromView:cell.contentView];
     
     [cache setObject:@(height) forKey:key];
     

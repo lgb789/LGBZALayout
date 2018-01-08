@@ -39,18 +39,18 @@
 		08C40F1779537FE7D53E636F344BEABA /* Pods-LGBZALayout_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LGBZALayout_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		0C074982EBE500AC7DF2B35850008F1B /* LGBZALayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LGBZALayout.h; sourceTree = "<group>"; };
 		0E48EA5A5337DB2C454BC4A8A34F8021 /* UITableView+ZACellHeight.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITableView+ZACellHeight.m"; sourceTree = "<group>"; };
-		0E557CE30ABECE131EFF6EC3A49D2BC7 /* LGBZALayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LGBZALayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E557CE30ABECE131EFF6EC3A49D2BC7 /* LGBZALayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LGBZALayout.framework; path = LGBZALayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		108CC2DE81C490407448DB29494F7379 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		117FA0D92621CB913251E8C877B202C7 /* Pods-LGBZALayout_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LGBZALayout_Tests-umbrella.h"; sourceTree = "<group>"; };
 		1F1D7F1676149010F47514508DDDD094 /* Pods-LGBZALayout_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LGBZALayout_Example-umbrella.h"; sourceTree = "<group>"; };
-		20E10D0FD8FFAC3CFDA3C5B24DC9E5D5 /* Pods_LGBZALayout_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LGBZALayout_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		20E10D0FD8FFAC3CFDA3C5B24DC9E5D5 /* Pods_LGBZALayout_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LGBZALayout_Tests.framework; path = "Pods-LGBZALayout_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		285C0F5BBDD28A91AD298EF1AA180701 /* Pods-LGBZALayout_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LGBZALayout_Example.release.xcconfig"; sourceTree = "<group>"; };
-		4E17D963571C192113A4468C4FD610F2 /* Pods-LGBZALayout_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-LGBZALayout_Tests.modulemap"; sourceTree = "<group>"; };
-		4E40FB806015D8A51E38D5E6297880DB /* Pods-LGBZALayout_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-LGBZALayout_Example.modulemap"; sourceTree = "<group>"; };
+		4E17D963571C192113A4468C4FD610F2 /* Pods-LGBZALayout_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-LGBZALayout_Tests.modulemap"; sourceTree = "<group>"; };
+		4E40FB806015D8A51E38D5E6297880DB /* Pods-LGBZALayout_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-LGBZALayout_Example.modulemap"; sourceTree = "<group>"; };
 		4F89353D1368E7C203B3F5B326C1DD70 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		539C7341EBB502D35A1DB7D52047C891 /* Pods-LGBZALayout_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LGBZALayout_Example-frameworks.sh"; sourceTree = "<group>"; };
 		55A638B40BF7502BF2C9817D695880C9 /* UIView+ZAFlame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+ZAFlame.h"; sourceTree = "<group>"; };
-		595BF9451EA25F523B4E8D42059DCAD3 /* LGBZALayout.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = LGBZALayout.modulemap; sourceTree = "<group>"; };
+		595BF9451EA25F523B4E8D42059DCAD3 /* LGBZALayout.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = LGBZALayout.modulemap; sourceTree = "<group>"; };
 		63435F27DD5AB9338181C6166159FF76 /* UIView+ZAFlame.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+ZAFlame.m"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		6D53AEEAAB317F5E2629900A165A688A /* LGBZALayout-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LGBZALayout-umbrella.h"; sourceTree = "<group>"; };
@@ -58,7 +58,7 @@
 		8008B47615D466C65ED3110AA1530F50 /* Pods-LGBZALayout_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LGBZALayout_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		90166F8EA2693DD69F7974A796DAF76D /* LGBZALayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LGBZALayout-prefix.pch"; sourceTree = "<group>"; };
 		909BE61EB8D33E364D7B12C3EE5BD461 /* Pods-LGBZALayout_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LGBZALayout_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9FEEBB9F9153FF022CDB1C5E3974C635 /* Pods-LGBZALayout_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LGBZALayout_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		A359399E3A4CF6C0BE48ADD6F52B8AA0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AA59D44E10E8116C66AD6F6ECFD60CA2 /* Pods-LGBZALayout_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LGBZALayout_Tests-dummy.m"; sourceTree = "<group>"; };
@@ -73,7 +73,7 @@
 		E389682555C42BAA2C3805F62A5A1B50 /* Pods-LGBZALayout_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LGBZALayout_Tests-resources.sh"; sourceTree = "<group>"; };
 		F110F8E8075B2FB01AC6D41F62FA6259 /* Pods-LGBZALayout_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LGBZALayout_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		F3B5FA8F186DB0262CB529126747303B /* Pods-LGBZALayout_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LGBZALayout_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		FBD05A1B3F6B4820AFC168B972ECD199 /* Pods_LGBZALayout_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LGBZALayout_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBD05A1B3F6B4820AFC168B972ECD199 /* Pods_LGBZALayout_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LGBZALayout_Example.framework; path = "Pods-LGBZALayout_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +115,7 @@
 				B0E757862B4EEE3C33C8AB67D356F057 /* UIView+ZALayout.h */,
 				B6990E57964581C2C38BC2FBE37E8F1E /* UIView+ZALayout.m */,
 			);
+			name = Classes;
 			path = Classes;
 			sourceTree = "<group>";
 		};
@@ -237,6 +238,7 @@
 			children = (
 				10AC2DC2E726736358422D4C5CF03B60 /* Classes */,
 			);
+			name = LGBZALayout;
 			path = LGBZALayout;
 			sourceTree = "<group>";
 		};

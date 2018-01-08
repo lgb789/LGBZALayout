@@ -10,7 +10,7 @@
 
 @protocol ZATableViewCellDelegate <NSObject>
 
--(void)zaConfigCellWithData:(id)data;
+-(void)lgb_configCellWithData:(id)data;
 
 @end
 

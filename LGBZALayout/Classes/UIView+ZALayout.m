@@ -891,6 +891,12 @@ typedef ZALayoutManager* (^BViewSpaceRatio)(UIView *refView, CGFloat space, CGFl
 }
 
 //Height
+
+-(CGFloat)lgb_heightFromView:(UIView *)fromView
+{
+    return [self heightFromView:fromView];
+}
+
 -(CGFloat)heightFromView:(UIView *)fromView
 {
     ZALayoutManager *manager = [fromView lgb_layoutManager];

@@ -239,7 +239,7 @@
         cell = [[c alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:NSStringFromClass(c)];
     }
     
-    [cell zaConfigCellWithData:self.data[indexPath.row]];
+    [cell lgb_configCellWithData:self.data[indexPath.row]];
     
     cell.selectionStyle = UITableViewCellSelectionStyleNone;
     
