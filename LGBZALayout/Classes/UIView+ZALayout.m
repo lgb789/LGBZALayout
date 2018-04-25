@@ -818,6 +818,26 @@ typedef ZALayoutManager* (^BViewSpaceRatio)(UIView *refView, CGFloat space, CGFl
     return [self widthFromManager:manager];
 }
 
+-(CGFloat)lgb_getY
+{
+    ZALayoutManager *manager = [self lgb_layoutManager];
+    if (!manager) {
+        return self.y;
+    }
+    
+    return [self yFromManager:manager];
+}
+
+-(CGFloat)lgb_getX
+{
+    ZALayoutManager *manager = [self lgb_layoutManager];
+    if (!manager) {
+        return self.x;
+    }
+    
+    return [self xFromManager:manager];
+}
+
 -(void)lgb_setWidthEqualForSubviews:(NSArray *)subviews
 {
     if (!subviews || subviews.count == 0) {

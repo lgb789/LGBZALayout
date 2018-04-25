@@ -144,6 +144,10 @@ typedef ZALayoutManager* (^BViewArrayValue)(NSArray *viewArray, CGFloat value);
 
 -(CGFloat)lgb_getWidth;
 
+-(CGFloat)lgb_getY;
+
+-(CGFloat)lgb_getX;
+
 -(CGFloat)lgb_heightFromView:(UIView *)fromView;
 
 -(void)lgb_setWidthEqualForSubviews:(NSArray *)subviews;
