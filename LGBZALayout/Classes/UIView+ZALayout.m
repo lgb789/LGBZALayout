@@ -884,7 +884,7 @@ typedef ZALayoutManager* (^BViewSpaceRatio)(UIView *refView, CGFloat space, CGFl
 -(CGFloat)calculateHeightOfView:(UIView *)view
 {
     CGFloat height = kNullFloat;
-    if ([view isKindOfClass:[UILabel class]]) {
+    if ([view isKindOfClass:[UILabel class]] || [view isKindOfClass:[UITextView class]]) {
         CGSize size = [view sizeThatFits:CGSizeMake([self widthFromView:view], CGFLOAT_MAX)];
         
         height = size.height;
